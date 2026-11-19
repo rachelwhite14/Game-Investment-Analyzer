@@ -19,7 +19,7 @@ The [Steam Games Dataset](https://www.kaggle.com/datasets/artermiloff/steam-game
 
 ## Built with
 - Python and pandas, in Google Colab
-- Coming soon: Gemini API
+- Gemini API
 
 ## How to run it
 1. Open the project's .ipynb notebook in Google Colab.
