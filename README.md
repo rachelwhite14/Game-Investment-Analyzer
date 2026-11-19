@@ -31,6 +31,26 @@ The [Steam Games Dataset](https://www.kaggle.com/datasets/artermiloff/steam-game
 Never put your API key directly into the notebook or GitHub repository.
 
 ## Example output
+### Sub-question 1: Demand vs. Competition
+
+Which genres combine strong demand with relatively fewer competing games?
+
+```text
+                       avg_owners  num_games         score
+genres
+Sports                 2.723077e+06         39  69822.485207
+Racing                 1.925806e+06         31  62122.788762
+Massively Multiplayer  4.579630e+06        108  42403.978052
+Early Access           2.830435e+06         69  41020.793951
+Free To Play           5.067725e+06        189  26813.359088
+```
+
+**Finding:** Sports ranks first with a demand-to-competition score of 69,822.49. Its average estimated ownership of 2.72 million across 39 games suggests relatively strong demand compared with the number of competitors.
+
+### Sub-question 2: Positive Review Percentages
+
+Which genres have the highest average positive review percentage?
+
 ```text
 genres
 Indie         89.648019
@@ -38,18 +58,26 @@ Casual        88.630137
 Simulation    86.734375
 Adventure     86.171765
 Strategy      85.068293
+Name: pct_pos_total, dtype: float64
 ```
-### Sub-question 1: 
-Sports has the highest demand-to-competition
-score, with an average of 2.72 million owners across 39 games.
 
-### Sub-question 2: 
-Indie games have the highest average positive
-review percentage at 89.65%, followed by Casual at 88.63%.
+**Finding:** Indie has the highest average positive review percentage at 89.65%, followed by Casual at 88.63%. These genres have the strongest average customer satisfaction among the genres analyzed.
 
-### Sub-question 3: 
-Action, Adventure, Sports, RPG, and Strategy
-all have a median selling price of $19.99.
+### Sub-question 3: Typical Selling Prices
+
+Which genres have the highest typical selling price?
+
+```text
+genres
+Action       19.99
+Adventure    19.99
+Sports       19.99
+RPG          19.99
+Strategy     19.99
+Name: price, dtype: float64
+```
+
+**Finding:** All five genres returned by the analysis have a median selling price of $19.99. This suggests that several genres have similar typical listed prices, making demand and customer satisfaction important additional considerations.
 
 
 ## AI Use Disclosure
