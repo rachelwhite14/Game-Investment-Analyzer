@@ -85,7 +85,7 @@ Name: price, dtype: float64
 - **Tools:** ChatGPT and Google Gemini
 - **What I asked:** Help writing and explaining Python code, debugging errors, creating functions, connecting the Gemini API, and interpreting my results.
 - **What I added, changed, or fixed in the AI's output:** Selected my three sub-questions, tested the code in Google Colab, fixed errors with the genre data, and reviewed the results.
-- **What I designed and wrote entirely myself:** Created game idea, problem it would solve, and recommendation.
+- **What I designed and wrote entirely myself:** Developed game idea, identified the business problem I wanted it to solve, and formulated my final recommendation.
 - **I understand every line of code I am submitting:** Yes
 ## Author
 Rachel White - MIST 4600. University of Georgia, Fall 2026
