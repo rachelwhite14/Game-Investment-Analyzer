@@ -31,55 +31,25 @@ The [Steam Games Dataset](https://www.kaggle.com/datasets/artermiloff/steam-game
 Never put your API key directly into the notebook or GitHub repository.
 
 ## Example output
+```text
+genres
+Indie         89.648019
+Casual        88.630137
+Simulation    86.734375
+Adventure     86.171765
+Strategy      85.068293
+```
+### Sub-question 1: 
+Sports has the highest demand-to-competition
+score, with an average of 2.72 million owners across 39 games.
 
-### Sub-Question 1: Demand vs. Competition
-Which genres combine strong demand with relatively fewer competing games?
+### Sub-question 2: 
+Indie games have the highest average positive
+review percentage at 89.65%, followed by Casual at 88.63%.
 
-| Genre | Average Owners | Number of Games | Score |
-|---|---:|---:|---:|
-|Sports| 2,723,077 | 39 | 69,822.49 |
-| Racing | 1,925,806 | 31 | 62,122.79 |
-| Massively Multiplayer | 4,579,630 | 108 | 42,403.98 |
-| Early Access | 2,830,435 | 69 | 41,020.79 |
-| Free To Play | 5,067,725 | 189 | 26,813.36 |
-
-**Finding:** Sports has the highest demand-to-competition score, suggesting relatvely strong player demand compared with the number of competing games.
-### Sub-question 2: Positive Review Percentages
-
-Which genres have the highest average positive review percentage?
-
-| Genre | Average Positive Reviews |
-|---|---:|
-| Indie | 89.65% |
-| Casual | 88.63% |
-| Simulation | 86.73% |
-| Adventure | 86.17% |
-| Strategy | 85.07% |
-
-**Finding:** Indie games have the highest average positive review percentage at 89.65%, followed by Casual games at 88.63%.
-
-### Sub-question 3: Typical Selling Prices
-
-Which genres have the highest typical selling price?
-
-| Genre | Median Price |
-|---|---:|
-| Action | $19.99 |
-| Adventure | $19.99 |
-| Sports | $19.99 |
-| RPG | $19.99 |
-| Strategy | $19.99 |
-
-**Finding:** These five genres have a median selling price of $19.99, suggesting similar typical listed prices among them.
-
-## Final Investment Reccommendation
-Based on my analysis, I recommend that a game developer consider investing in the **Sports** genre. Sports has the highest demand-to-competition score of 69,822.49, with approximately 2.72 million average estimated owners and 39 competing games in the dataset.
-
-Sports also has a median selling price of $19.99, placing it among the highest-priced genres returned by the analysis.
-
-However, Sports has an average positive review percentage of 76.15%, which is lower than Indie (89.65%) and Casual (88.63%).
-
-Overall, Sports appears to offer a promising combination of player demand, competition, and pricing. However, these results do not guarantee that a new Sports game will be successful.
+### Sub-question 3: 
+Action, Adventure, Sports, RPG, and Strategy
+all have a median selling price of $19.99.
 
 
 ## AI Use Disclosure
